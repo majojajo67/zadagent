@@ -1,0 +1,12 @@
+# Mój pierwszy agent — karta obserwacji
+
+- Narzędzie i model: cursor agent 3.27
+- Moje zadanie (2–3 zdania): agent miał zbudować stoper
+- Pierwsza wiadomość (wklejona co do znaku): build stoper with 2 buttons start and stop in java script with like a window in desktop apliction
+- Co agent zrobił najpierw: zbudował aplikacje
+- O co pytał — i co zostało zatwierdzone bez czytania: o nic nie pytał
+- Pierwszy błąd i co agent z nim zrobił: nie było błędów
+- Stan po 25 minutach: działa 
+- Skąd wiem, że aplikacja działa (co zostało sprawdzone): działanie stoper (poprawnie odmierza czas)
+- Rzeczy, które agent zrobił, a których nie rozumiem: -
+- Jak mi się wydawało, że poszło (jedno zdanie):bardzo dobrze
