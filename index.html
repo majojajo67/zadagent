@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stoper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="window" role="application" aria-label="Stoper">
+        <header class="titlebar">
+          <span class="titlebar-icon" aria-hidden="true">⏱</span>
+          <span class="titlebar-title">Stoper</span>
+          <div class="titlebar-controls">
+            <button class="win-btn" type="button" aria-label="Minimalizuj" tabindex="-1">─</button>
+            <button class="win-btn" type="button" aria-label="Maksymalizuj" tabindex="-1">□</button>
+            <button class="win-btn win-btn-close" type="button" aria-label="Zamknij" tabindex="-1">✕</button>
+          </div>
+        </header>
+
+        <main class="window-body">
+          <p class="time" id="display" aria-live="polite">00:00:00.00</p>
+          <div class="actions">
+            <button class="btn btn-start" id="start" type="button">Start</button>
+            <button class="btn btn-stop" id="stop" type="button" disabled>Stop</button>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
